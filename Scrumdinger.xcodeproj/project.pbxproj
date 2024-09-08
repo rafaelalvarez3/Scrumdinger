@@ -15,6 +15,7 @@
 		5349BA5C2C8E5ED4001924C0 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5349BA5B2C8E5ED4001924C0 /* CardView.swift */; };
 		5349BA5E2C8E614C001924C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5349BA5D2C8E614C001924C0 /* Assets.xcassets */; };
 		5349BA602C8E651E001924C0 /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5349BA5F2C8E651E001924C0 /* TrailingIconLabelStyle.swift */; };
+		5349BA622C8E6A57001924C0 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5349BA612C8E6A57001924C0 /* ScrumsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		5349BA5B2C8E5ED4001924C0 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		5349BA5D2C8E614C001924C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../Downloads/CreatingACardView/StartingProject/Scrumdinger/Assets.xcassets; sourceTree = "<group>"; };
 		5349BA5F2C8E651E001924C0 /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
+		5349BA612C8E6A57001924C0 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,9 +65,10 @@
 				5349BA482C8E43C5001924C0 /* ScrumdingerApp.swift */,
 				5349BA4A2C8E43C5001924C0 /* MeetingView.swift */,
 				5349BA5B2C8E5ED4001924C0 /* CardView.swift */,
+				5349BA612C8E6A57001924C0 /* ScrumsView.swift */,
 				5349BA5D2C8E614C001924C0 /* Assets.xcassets */,
-				5349BA4E2C8E43C5001924C0 /* Preview Content */,
 				5349BA5F2C8E651E001924C0 /* TrailingIconLabelStyle.swift */,
+				5349BA4E2C8E43C5001924C0 /* Preview Content */,
 			);
 			path = Scrumdinger;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 				5349BA5A2C8E5AEC001924C0 /* DailyScrum.swift in Sources */,
 				5349BA602C8E651E001924C0 /* TrailingIconLabelStyle.swift in Sources */,
 				5349BA582C8E561C001924C0 /* Theme.swift in Sources */,
+				5349BA622C8E6A57001924C0 /* ScrumsView.swift in Sources */,
 				5349BA4B2C8E43C5001924C0 /* MeetingView.swift in Sources */,
 				5349BA492C8E43C5001924C0 /* ScrumdingerApp.swift in Sources */,
 				5349BA5C2C8E5ED4001924C0 /* CardView.swift in Sources */,
