@@ -9,6 +9,7 @@ import SwiftUI
 
 struct DetailEditView: View {
     @State private var scrum = DailyScrum.emptyScrum
+    @State private var newAttendeeName = ""
     
     var body: some View {
         Form {
@@ -20,6 +21,14 @@ struct DetailEditView: View {
                     }
                     Spacer()
                     Text("\(scrum.lengthInMinutes) minutes")
+                }
+            }
+            Section(header: Text("Attendees")) {
+                ForEach(scrum.attendees) { attendee in
+                    Text(attendee.name)
+                }
+                .onDelete { indices in
+                    scrum.attendees.remove(atOffsets: indices)
                 }
             }
         }
