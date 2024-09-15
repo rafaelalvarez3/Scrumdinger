@@ -133,8 +133,9 @@
 			children = (
 				537111DD2C97515200FE0FAC /* ding.wav */,
 			);
-			path = Resources;
-			sourceTree = "<group>";
+			name = Resources;
+			path = /Users/rafael/Developer/Scrumdinger/Scrumdinger/Resources;
+			sourceTree = "<absolute>";
 		};
 /* End PBXGroup section */
 
