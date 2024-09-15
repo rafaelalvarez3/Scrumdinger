@@ -13,6 +13,9 @@ struct MeetingFooterView: View {
     }
 }
 
-#Preview {
-    MeetingFooterView()
+struct MeetingFooterView_Previews: PreviewProvider {
+    static var previews: some View {
+        MeetingFooterView()
+            .previewLayout(.sizeThatFits)
+    }
 }

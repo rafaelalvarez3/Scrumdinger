@@ -79,10 +79,11 @@
 			children = (
 				5349BA562C8E55FE001924C0 /* Models */,
 				5349BA482C8E43C5001924C0 /* ScrumdingerApp.swift */,
-				537111D02C972AE900FE0FAC /* MeetingHeaderView.swift */,
-				5349BA4A2C8E43C5001924C0 /* MeetingView.swift */,
-				5349BA5B2C8E5ED4001924C0 /* CardView.swift */,
 				5349BA612C8E6A57001924C0 /* ScrumsView.swift */,
+				5349BA4A2C8E43C5001924C0 /* MeetingView.swift */,
+				537111D02C972AE900FE0FAC /* MeetingHeaderView.swift */,
+				537111D62C97431700FE0FAC /* MeetingFooterView.swift */,
+				5349BA5B2C8E5ED4001924C0 /* CardView.swift */,
 				5349BA632C8E8606001924C0 /* DetailView.swift */,
 				53EE9FE82C95E2EC009BF383 /* DetailEditView.swift */,
 				53EE9FEA2C95F3D3009BF383 /* ThemeView.swift */,
@@ -91,7 +92,6 @@
 				537111D22C97372800FE0FAC /* ScrumProgressViewStyle.swift */,
 				5349BA5D2C8E614C001924C0 /* Assets.xcassets */,
 				5349BA4E2C8E43C5001924C0 /* Preview Content */,
-				537111D62C97431700FE0FAC /* MeetingFooterView.swift */,
 			);
 			path = Scrumdinger;
 			sourceTree = "<group>";
