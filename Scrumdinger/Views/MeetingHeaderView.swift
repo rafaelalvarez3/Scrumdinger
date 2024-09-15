@@ -16,10 +16,8 @@ struct MeetingHeaderView: View {
         secondsElapsed + secondsRemaining
     }
     private var progress: Double {
-        guard totalSeconds > 0 else {
-            return 1
-        }
-        return Double(secondsElapsed) / Double(secondsRemaining)
+        guard totalSeconds > 0 else { return 1 }
+        return Double(secondsElapsed) / Double(totalSeconds)
     }
     private var minutesRemaining: Int {
         secondsRemaining / 60
